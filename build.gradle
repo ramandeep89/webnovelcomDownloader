@@ -13,6 +13,9 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
     implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'commons-cli:commons-cli:1.5.0'
+    implementation 'org.slf4j:slf4j-api:2.0.0-alpha7'
+    implementation 'org.slf4j:slf4j-simple:2.0.0-alpha7'
 }
 
 test {
